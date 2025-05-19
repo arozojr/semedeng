@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Semed Engenharia</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      display: flex;
+      background-color: #f5f5f5;
+    }
+
+    /* Barra lateral */
+    .sidebar {
+      width: 240px;
+      background-color: #007BFF;
+      color: white;
+      height: 100vh;
+      padding: 20px;
+      box-sizing: border-box;
+      position: fixed;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+    }
+
+    .sidebar h2 {
+      font-size: 24px;
+      margin-top: 0;
+      margin-bottom: 20px;
+    }
+
+    .nav-button {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      margin: 8px 0;
+      padding: 10px 15px;
+      background-color: white;
+      color: #007BFF;
+      text-decoration: none;
+      border-radius: 6px;
+      font-weight: bold;
+      transition: background-color 0.3s ease, color 0.3s ease;
+      width: 100%;
+      box-sizing: border-box;
+    }
+
+    .nav-button:hover {
+      background-color: #e6e6e6;
+      color: #0056b3;
+    }
+
+    .icon {
+      font-size: 18px;
+    }
+
+    /* Conteúdo principal */
+    .main-content {
+      margin-left: 260px;
+      padding: 40px;
+      text-align: center;
+      flex-grow: 1;
+    }
+
+    h1 {
+      color: #333;
+    }
+
+    .main-content p {
+      max-width: 800px;
+      margin: 20px auto;
+      font-size: 18px;
+      color: #444;
+    }
+
+    .main-content img {
+      margin-top: 20px;
+      max-width: 90%;
+      height: auto;
+      border-radius: 8px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    }
+  </style>
+</head>
+<body>
+  <div class="sidebar">
+    <h2>Semed Eng</h2>
+
+    <a href="https://app.powerbi.com/view?r=eyJrIjoiZWI5MzcxODktNWFkNC00OTcwLTg5MzgtYWFkMzNlMDQwMTczIiwidCI6IjE3YWViNTE0LWQxN2QtNDk1NS1hN2FlLTk2N2UwNmMxMDllOSJ9" target="_blank" class="nav-button">
+      <span class="icon">🔧</span> Semed Movimento
+    </a>
+
+    <a href="https://app.powerbi.com/view?r=eyJrIjoiYjY0MDJiMGUtNTMxNS00MmQ5LTg2ZGQtZjU1ZGM3ZGJlYjNmIiwidCI6IjE3YWViNTE0LWQxN2QtNDk1NS1hN2FlLTk2N2UwNmMxMDllOSJ9" target="_blank" class="nav-button">
+      <span class="icon">🛠️</span> Manutenção
+    </a>
+
+    <a href="https://app.powerbi.com/view?r=eyJrIjoiYjY0MDJiMGUtNTMxNS00MmQ5LTg2ZGQtZjU1ZGM3ZGJlYjNmIiwidCI6IjE3YWViNTE0LWQxN2QtNDk1NS1hN2FlLTk2N2UwNmMxMDllOSJ9" target="_blank" class="nav-button">
+      <span class="icon">📅</span> Agenda
+    </a>
+
+    <a href="https://example.com/link2" target="_blank" class="nav-button">
+      <span class="icon">ℹ️</span> Sobre
+    </a>
+  </div>
+
+  <div class="main-content">
+    <h1>Bem-vindo à página da Semed Engenharia</h1>
+    <p>
+      A Semed Engenharia atua com soluções tecnológicas voltadas à manutenção preventiva e à gestão inteligente de ativos públicos. Nossa missão é promover eficiência, inovação e segurança por meio do uso de ferramentas digitais como dashboards de análise, sensores e plataformas de monitoramento. Explore os painéis disponíveis no menu lateral para visualizar dados em tempo real e relatórios gerenciais.
+    </p>
+    <img src="https://cdn.pixabay.com/photo/2016/11/29/03/35/engineer-1868728_960_720.jpg" alt="Engenharia em ação">
+  </div>
+</body>
+</html>
